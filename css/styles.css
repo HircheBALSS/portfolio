@@ -7,13 +7,13 @@ font-family: 'Abel', sans-serif;
 }
 
 header{
-    background: linear-gradient(rgb(6, 6, 6) 15%, rgba(242, 0, 0, 0) 50%), url("../images/ban.jpg") no-repeat center center/ cover fixed;
+    background: linear-gradient(rgb(6, 6, 6) 15%, rgba(15, 15, 15, 0.605) 50%), url("../images/ban.jpg") no-repeat center center/ cover fixed;
     height: 600px;
-    opacity: 0.88;
+    /* opacity: 1.99; */
     width: 100%;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    justify-items: center;
+    justify-items: center; */
 }
 
 .logo img{
@@ -26,14 +26,94 @@ header{
 
 .menu-nav a{
  color: #fff;
+ padding: 5px;
 }
 
 .menu-nav ul{
     display: flex;
     padding: 80px;
     justify-content: space-between;
-    width: 500px;
-    height: 100px;
-    margin-top: -30px;
-    margin-right: 40px;
+    width: 40%;
+    /* height: 30%; */
+    margin-top: -185px;
+    margin-left: 600px;
+    font-size: 16px;
 }
+
+.menu-nav a:hover{
+font-size: 16.5px;
+font-weight: bold;
+color: #08fdd8;
+transition: 0.5s all;
+}
+
+span{
+    color: #08fdd8;
+}
+
+.contenair{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    margin-right: 30%;
+
+}
+
+.mot{
+    margin-bottom: 100px;
+    margin-right: -500px;
+}
+
+.mot p{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.button {
+    flex-direction: column-reverse;
+    margin-top: 180px;
+    margin-right: 400px;
+
+}
+
+.button a{
+    color: #fff;
+    padding: 15px;
+    font-size: 17px;
+    margin: 20px;
+}
+
+.gauche{
+    border: 2.5px solid;
+}
+
+.droite{
+    border: 2.5px solid;
+}
+
+.button a:hover{
+    background: rgb(7, 7, 7);
+    color: #08fdd8;
+    /* cursor: pointer; */
+    animation: 3s linear 1s infinite alternate slidein;
+}
+
+.body{
+    width: 100%;
+    height: 700px;
+    /* background: black; */
+    display: flex;
+    flex-direction: row;
+}
+
+.moi img{
+height: 400px;
+width: 350px;
+border-radius: 50px;
+}
+
